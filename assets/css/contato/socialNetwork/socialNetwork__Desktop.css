@@ -1,0 +1,18 @@
+
+
+.socialNetwork{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr;
+    height: 30vh;
+    width: calc(100vw-3rem);
+    border: 3px solid black;
+    padding: 3rem 5rem;
+    gap: .5rem;
+}
+
+.socialNetwork__card{
+    width: 20rem;
+    height: 5rem;
+    border: 2px solid red;
+}
