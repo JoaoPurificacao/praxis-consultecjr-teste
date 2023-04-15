@@ -20,4 +20,35 @@
     --Poppins: 'Poppins', sans-serif;
     --Titillium_Web:'Titillium Web', sans-serif;
 
+    --padding-section: 5vw;
+}
+
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+@media (min-width: 1240) {
+    :root{
+        --padding-section: calc((100vw - 1135px) / 2);  
+    }
+}
+
+.padding__section{
+    padding-left: var(--padding-section);
+    padding-right: var(--padding-section);
 }
