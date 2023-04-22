@@ -1,39 +1,23 @@
 @media (min-width: 999px) { 
 
     .socialNetwork{
-        /* border: 3px solid green; */
-        /* display: flex; */
-        /* justify-content: center; */
-        padding-top: 2rem;
         padding-bottom: 2rem;
+        padding-top: 2rem;
         width: 100vw;
     }
     
     .socialNetwork__grid_container{
-        /* display: grid; */
+        column-gap: 4rem;
         grid-template-columns: repeat(3, var(--columm-size));
         grid-template-rows: repeat(2, var(--row-size));
-        /* height: 40vh; */
-        width: 100%;
-        /* border: 3px solid black; */
-        /* padding-top: 2rem; */
-        /* padding-bottom: 2rem; */
-        column-gap: 4rem;
         row-gap: 6rem;
-        /* font-family: var(--Titillium_Web); */
+        width: 100%;
     }
     
     .socialNetwork__card{
-        /* align-items: center; */
-        /* display: flex; */
-        /* justify-content: flex-start; */
-        /* column-gap: 8px; */
-        min-width: 27rem;
-        max-width: 40rem;
-        /* max-width: 40rem; */
         height: 12rem;
-        /* height: 120px; */
-        /* border: 3px solid #ED1C24; */
+        max-width: 40rem;
+        min-width: 27rem;
     }
     
     .socialNetwork__card__img{
@@ -46,24 +30,17 @@
     }
     
     .socialNetwork__card__stick{
-        /* background-color: #AE1118;    */
-        width: 2px;
         height: 75%;
-        /* margin-left: 1.6rem; */
         margin-right: .8rem;
+        width: 2px;
     }
     
     .socialNetwork__text{
-        /* border: 3px solid black; */
-        /* display: flex; */
         height: 100%;;
         padding-top: 1.3rem;
-        /* flex-direction: column; */
-        /* justify-content:flex-start; */
     }
     
     .socialNetwork__card__title{
-        /* color: var(--vermelho-claro); */
         font-size: 2.5rem;
         padding-bottom: 1rem;
     }
