@@ -2,6 +2,27 @@
 @import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;700&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@700&display=swap');
 
+/* Limpando o CSS do Navegador */
+*, *::before, *::after {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+} 
+ 
+html {
+    scroll-behavior: smooth;
+}
+
+ul, li, ol {
+    list-style: none;
+}
+
+a {
+   text-decoration: none;
+   color: black;
+}
+
+/* Início da Estilização */
 :root{
     font-size: 10px;
 
@@ -23,25 +44,6 @@
     --Titillium_Web:'Titillium Web', sans-serif;
 
     --padding-section: 5vw;
-}
-
-*, *::before, *::after {
-  box-sizing: border-box;
-  margin: 0;
-  padding: 0;
-} 
- 
-html {
-    scroll-behavior: smooth;
-}
-
-ul, li, ol {
-    list-style: none;
-}
-
-a {
-   text-decoration: none;
-   color: black;
 }
 
 @media (min-width: 1240) {
