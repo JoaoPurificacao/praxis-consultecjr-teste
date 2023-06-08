@@ -6,4 +6,5 @@ buttonNavbar.addEventListener('click',activeNavBar)
 function activeNavBar(){
     // console.log(navBar)
     navBar.classList.toggle('header__navbar-activate')
+    buttonNavbar.classList.toggle('mobile_menu-activate')
 }

@@ -8,6 +8,7 @@
     height: 2px;
     background-color: #000;
     margin: 8px;
+    transition: 0.3s;
 }
 
 @media (max-width: 999px) {
@@ -44,4 +45,16 @@
 
 .header__navbar-activate{
     transform: translateX(0);
+}
+
+.mobile_menu-activate .line1{
+    transform: rotate(-45deg) translate(-8px, 8px);;
+}
+
+.mobile_menu-activate .line2{
+    opacity: 0;
+}
+
+.mobile_menu-activate .line3{
+    transform: rotate(45deg) translate(-5px, -7px);;
 }
