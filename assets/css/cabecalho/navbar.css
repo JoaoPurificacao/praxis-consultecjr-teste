@@ -1,0 +1,19 @@
+.header{
+    align-items: center;
+    border: 1px solid blue;
+    justify-content: space-between;
+    display: flex;
+    height: 7.5rem;
+    margin-bottom: 10rem;
+}
+
+.header__navbar{
+    display: flex;
+    width: 40%;
+    justify-content: space-around;
+}
+
+.header__navbar__link{
+    font-size: 1.6rem;
+    font-family: var(--Poppins);
+}
