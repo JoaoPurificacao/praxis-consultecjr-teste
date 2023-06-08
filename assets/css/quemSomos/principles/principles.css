@@ -7,7 +7,7 @@
     padding-bottom: 2rem;
     /* height: 50vh; */
     width: 100vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .principles__container--texts{
@@ -22,7 +22,7 @@
 }
 
 .principles__container__title{
-    font-size: 3.5rem;
+    font-size: 3rem;
     font-family: var(--Oswald);
     text-transform: uppercase;
     color: var(--vermelho-claro);

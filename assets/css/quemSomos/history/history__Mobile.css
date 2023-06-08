@@ -1,0 +1,14 @@
+@media (max-width: 999px) {
+    .history__content{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+
+    .history__content__img{
+        width: 30rem;
+        margin-bottom: 2rem;
+        margin-right: 0;
+    }
+}

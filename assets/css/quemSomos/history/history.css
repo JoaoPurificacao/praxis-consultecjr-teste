@@ -1,0 +1,23 @@
+.history{
+    padding-top: 1rem;
+    padding-bottom: 2rem;
+    width: 100vw;
+    border: 2px solid red;
+}
+
+.history__content{
+    display: flex;
+    justify-content: center;
+}
+
+.history__content__img{
+    width: 48rem;
+    margin-right: 2rem;
+}
+
+.history__content__text{
+    font-size: 2rem;
+    color: var(--vermelho-escuro);
+    font-family: var(--Poppins);
+    text-align: justify;
+}
