@@ -4,7 +4,7 @@
 
 .header{
     align-items: center;
-    border: 1px solid blue;
+    /* border: 1px solid blue; */
     justify-content: space-between;
     display: flex;
     height: 7.5rem;

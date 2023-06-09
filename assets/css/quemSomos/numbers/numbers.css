@@ -1,0 +1,57 @@
+.numbers{
+    align-items: center;
+    display: flex;
+    background-color: var(--vermelho-escuro);
+    flex-wrap: wrap;
+    height: 10rem;
+    width: 100vw;
+    color: #fff;
+    justify-content: space-evenly;
+    /* border: 3px solid #000000; */
+
+    padding-top: 1rem;
+    padding-bottom: 1rem;
+}
+
+.numbers__number{
+    align-items: center;
+    display: flex;
+    width: 20rem;
+    /* border: 2px solid green; */
+}
+
+.numbers__number__img{
+    height: 7rem;
+    margin-right: 1rem;
+}
+
+.numbers__number__img--projetos{
+   margin-right: 0;
+}
+
+.numbers__number__img--bim, .numbers__number__img--brasil{
+    height: 8.2rem;
+}
+
+.numbers__number__text{
+    align-items: flex-start;
+    display: flex;
+    flex-direction: column;
+    font-family: var(--Poppins);
+    /* height: 50%; */
+    /* border: 1px solid blue; */
+}
+
+.numbers__number__text__values{
+    font-size: 2.5rem;
+    font-weight: bold;
+}
+
+.numbers__number__text__description{
+    font-size: 1.25rem;
+    text-align: left;
+}
+
+.numbers__number__text__description--brasil{
+    width: 15rem;
+}

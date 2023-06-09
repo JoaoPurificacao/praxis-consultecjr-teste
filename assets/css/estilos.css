@@ -43,7 +43,13 @@ a {
     --Poppins: 'Poppins', sans-serif;
     --Titillium_Web:'Titillium Web', sans-serif;
 
-    --padding-section: 5vw;
+    /* --padding-section: 6.25vw; */
+
+    /* Inicial */
+    /* --padding-section: 5vw; */
+
+    /* Ideal - Figma */
+    --padding-section: 10vw;
 }
 
 @media (min-width: 1240) {

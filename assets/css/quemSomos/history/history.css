@@ -2,7 +2,7 @@
     padding-top: 1rem;
     padding-bottom: 2rem;
     width: 100vw;
-    border: 2px solid red;
+    /* border: 2px solid red; */
 }
 
 .history__content{
@@ -20,4 +20,5 @@
     color: var(--vermelho-escuro);
     font-family: var(--Poppins);
     text-align: justify;
+    hyphens: auto;
 }
