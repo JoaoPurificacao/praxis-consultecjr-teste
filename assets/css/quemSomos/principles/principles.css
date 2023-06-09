@@ -10,32 +10,7 @@
     /* border: 2px solid red; */
 }
 
-.principles__container--texts{
-    align-items: center;
-    display: flex;
-    flex-direction: column;
-    /* border: 2px solid red; */
-    width: 100%;
-    /* margin-top: 2rem; */
-    margin-bottom: 6.5rem;
-    /* padding: 2rem; */
-}
-
-.principles__container__title{
-    font-size: 3rem;
-    font-family: var(--Oswald);
-    text-transform: uppercase;
-    color: var(--vermelho-claro);
-}
-
-.principles__container__line{
-    height: 1px;
-    width: 65%;
-    min-width: 32rem;
-    background-color: var(--vermelho-claro);
-}
-
-.principles__container--cards{
+.principles__container{
     display: flex;
     justify-content: center;
     flex-wrap: wrap;
