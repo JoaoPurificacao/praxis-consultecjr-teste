@@ -1,0 +1,8 @@
+@media (max-width: 999px) {
+    .selected__container{
+        align-items: center;
+        row-gap: 3rem;
+        flex-direction: column;
+        margin-top: -1.5rem;
+    }
+}
