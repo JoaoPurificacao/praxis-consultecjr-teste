@@ -14,6 +14,7 @@
     font-family: var(--Oswald);
     text-transform: uppercase;
     color: var(--vermelho-claro);
+    text-align: center;
 }
 
 .title__container__line{
