@@ -1,0 +1,45 @@
+@media (max-width: 999px) {
+    .footer{
+        height: 75vh;
+        border: 1px solid white;
+    }
+
+    .footer__main{
+        height: 65%;
+        flex-direction: column;
+        justify-content: space-around;
+    }
+
+    .footer__logo{
+        margin-left: 0rem;
+    }
+    
+
+    .footer__text{
+        display: flex;
+        flex-direction: column;
+        justify-content: space-around;
+        height: 15rem;
+        width: 100%;
+        /* border: 1px solid green; */
+    }
+
+    .footer__text__local, .footer__text__hours, .footer__nav a{
+        text-align: center;
+    }
+
+
+    .footer__socialNetwork nav {
+        display: flex;
+        justify-content: space-around;
+        width: 50%;
+    }
+
+    .footer__author span{
+        width: 90%;
+    }
+
+    .footer__author span u{
+        display: none;
+    }
+}
