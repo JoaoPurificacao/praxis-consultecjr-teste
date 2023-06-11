@@ -1,0 +1,30 @@
+.contact{
+    align-items: center;
+    display: flex;
+    height: 9rem;
+    justify-content: space-between;
+    background-color: var(--vermelho-escuro);
+    width: 100vw;
+}
+
+.contact__text{
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.contact__link{
+    background-color: var(--preto);
+    font-weight: bold;
+    font-size: 1.6rem;
+    width: 21rem;
+    height: 5rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4.7rem;
+}
+
+.contact__text, .contact__link{
+    font-family: var(--Poppins);
+    color: #fff;
+}
