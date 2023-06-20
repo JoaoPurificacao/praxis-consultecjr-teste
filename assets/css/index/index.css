@@ -1,0 +1,20 @@
+.numbers{
+    background: var(--gradiente2-home) !important;
+    /* background: linear-gradient(180deg, #E2AAAD 0%, #DD999C 100%); */
+}
+
+.title__container__title{
+    color: white;
+}
+
+.title__container__line{
+    background-color: white;
+}
+
+.behave{
+    background: var(--gradiente3-home) !important;
+}
+
+.contact{
+    background: var(--gradiente5-home) !important;
+}

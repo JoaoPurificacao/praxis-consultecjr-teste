@@ -1,0 +1,16 @@
+.behave__container{
+    display: flex;
+}
+
+.behave__container__item{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+}
+
+.behave__container__item__text{
+    color: white;
+    text-align: center;
+    font-family: var(--Poppins);
+    font-weight: bold;
+}

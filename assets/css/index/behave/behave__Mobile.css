@@ -1,0 +1,37 @@
+@media (max-width: 999px) {
+    .behave{
+        padding-top: 4rem;
+        padding-bottom: 4rem;
+    }
+    
+    .behave__container{
+        align-items: center;
+        flex-direction: column;
+    }
+    
+    .behave__container__item__icon{
+        align-self: center;
+        transform: rotate(45deg);
+    }
+    
+    .behave__container__item__content{
+        width: 25rem;
+    }
+    
+    .behave__container__item__img{
+        width: 20rem;
+    }
+    
+    .behave__container__item:nth-child(3) img{
+        width: 22.5rem;
+    }
+    
+    
+    .behave__container__item__icon{
+        width: 10rem;
+    }
+    
+    .behave__container__item__text{
+        font-size: 1.5rem;
+    }
+}
