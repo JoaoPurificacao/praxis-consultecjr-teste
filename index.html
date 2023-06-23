@@ -5,6 +5,7 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>ConsultecJr</title>
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.css"/>
     <!-- Estilo Padrão -->
     <link rel="stylesheet" href="./assets/css/estilos.css">
     <link rel="stylesheet" href="./assets/css/padrao/titulo/title.css">
@@ -14,6 +15,9 @@
     <!-- Barra de Navegação -->
     <link rel="stylesheet" href="./assets/css/padrao/cabecalho/navbar.css">
     <link rel="stylesheet" href="./assets/css/padrao/cabecalho/navbar__Mobile.css">
+
+    <link rel="stylesheet" href="./assets/css/index/solutions/solutions.css">
+    <link rel="stylesheet" href="./assets/css/index/solutions/solutions__Mobile.css">
 
     <!-- Seção: Número -->
     <link rel="stylesheet" href="./assets/css/quemSomos/numbers/numbers.css"> 
@@ -48,11 +52,133 @@
             <a href="" class="header__navbar__link">Soluções</a>
             <a href="./quemSomos.html" class="header__navbar__link">Quem Somos</a>
             <a href="" class="header__navbar__link">Contato</a>
-            <a href="" class="header__navbar__link">Blog</a>
-            <a href="" class="header__navbar__link">Portfólio</a>
+            <a href="./swiper.html" class="header__navbar__link">Blog</a>
+            <a href="./carrossel-index.html" class="header__navbar__link">Portfólio</a>
         </nav>
     </header>
     <!-- Barra de Navegação - Final -->
+
+    <section class="solutions padding__section">
+        <div class="solutions__navegation">
+            <h2 class="solutions__navegation__title">Soluções</h2>
+            <div class="solutions__navegation__links">
+                <span class="solutions__navegation__link bold">Engenharia</span>
+                <span class="solutions__navegation__link">Arquitetura</span>
+                <span class="solutions__navegation__link">Execução de Obra</span>
+            </div>
+        </div>
+
+        <div class="swiper mySwiper none">
+            <div class="swiper-wrapper solutions__carrossel">
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/prevencao-de-incendio.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Prevenção de Incêndio</h3>
+                </div>
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/inspecao-predial.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Inspeção Predial</h3>
+                </div>
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/projeto-eletrico.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Projeto Elétrico</h3>
+                </div>
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/projeto-hidrossanitario.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Projeto Hidrossanitário</h3>
+                </div>
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/usucapiao.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Usucapião</h3>    
+                </div>
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/projeto-estrutural.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Projeto Estrutural</h3>
+                </div>
+                <div class="swiper-slide solutions__carrossel__card">
+                    <div>
+                        <img src="./assets/images/index/carrossel/eng/levantamento-topografico.png" alt="" class="solutions__carrossel__card__img">
+                      </div>
+                    <h3 class="solutions__carrossel__card__title">Levantamento Topográfico</h3>
+                </div>
+          </div>
+        </div>
+
+        <div class="swiper mySwiper2">
+        <div class="swiper-wrapper solutions__carrossel">
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/arq/arquitetura-de-interiores.png" alt="" class="solutions__carrossel__card__img">
+                    </div>
+                <h3 class="solutions__carrossel__card__title">Arquitetura de Interiores</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/arq/projeto-arquitetônico.png" alt="" class="solutions__carrossel__card__img">
+                    </div>
+                <h3 class="solutions__carrossel__card__title">Projeto Arquitetônico</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/arq/projeto-paisagistico.png" alt="" class="solutions__carrossel__card__img">
+                    </div>
+                <h3 class="solutions__carrossel__card__title">Projeto Paisagístico</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/arq/projeto-fachada.png" alt="" class="solutions__carrossel__card__img">
+                    </div>
+                <h3 class="solutions__carrossel__card__title">Projeto Fachada</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/arq/estudo-de-viabilidade.png" alt="" class="solutions__carrossel__card__img">
+                    </div>
+                <h3 class="solutions__carrossel__card__title">Estudo de Viabilidade</h3>
+            </div>
+        </div>
+        </div>
+
+        <div class="swiper mySwiper3 none">
+        <div class="swiper-wrapper solutions__carrossel">
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/obr/orcamento-de-obra.png" alt="" class="solutions__carrossel__card__img">
+                    </div>
+                <h3 class="solutions__carrossel__card__title">Orçamento de Obra</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/obr/acompanhamento-de-obra.png" alt="" class="solutions__carrossel__card__img">
+                </div>
+                <h3 class="solutions__carrossel__card__title">Acompanhamento de Obra</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/obr/gerenciamento-financeiro.png" alt="" class="solutions__carrossel__card__img">
+                </div>
+                <h3 class="solutions__carrossel__card__title">Gerenciamento Financeiro</h3>
+            </div>
+            <div class="swiper-slide solutions__carrossel__card">
+                <div>
+                    <img src="./assets/images/index/carrossel/obr/execucao-de-obra.png" alt="" class="solutions__carrossel__card__img">
+                </div>
+                <h3 class="solutions__carrossel__card__title">Execução de Obra</h3>
+            </div>
+        </div>
+        </div>
+    </section>
 
     <!-- Seção: Números - Início -->
     <section class="numbers padding__section" >
@@ -188,7 +314,11 @@
         </div>
     </footer>
     <!-- Rodapé - Final -->
+
+    <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/javascript/mobile-navbar.js"></script>
     <script src="./assets/javascript/counter.js"></script>
+    <script src="./assets/javascript/swiper.js"></script>
+    <script src="./assets/javascript/carrossel-index.js"></script>
 </body>
 </html>

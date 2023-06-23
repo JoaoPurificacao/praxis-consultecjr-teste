@@ -1,0 +1,54 @@
+html,
+body {
+    /* position: relative; */
+    font-size: 10px;
+    height: 100%;
+}
+
+body {
+    background: #eee;
+    font-family: Helvetica Neue, Helvetica, Arial, sans-serif;
+    color: #000;
+    margin: 0;
+    padding: 5rem;
+}
+
+.div{
+    /* height: 20rem; */
+    /* width: 80vw; */
+}
+
+swiper-container {
+    width: 100%;
+    height: 100%;
+}
+
+swiper-slide {
+    text-align: center;
+    background: blue;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-size: 2rem;
+    color: white;
+}
+
+swiper-slide div{
+    /* height: 40%; */
+    padding: 3rem 2rem;
+    border: 1px solid red;
+    background-color: white;
+}
+
+swiper-slide h3{
+    align-self: flex-start;
+    margin-left: 3rem;
+}
+
+swiper-slide img {
+    display: block;
+    width: 40rem;
+    /* height: 100%; */
+    object-fit: cover;
+}

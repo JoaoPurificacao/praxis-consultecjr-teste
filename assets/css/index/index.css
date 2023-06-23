@@ -1,3 +1,7 @@
+.solutions{
+    background: var(--gradiente1-home) !important;
+}
+
 .numbers{
     background: var(--gradiente2-home) !important;
     /* background: linear-gradient(180deg, #E2AAAD 0%, #DD999C 100%); */
