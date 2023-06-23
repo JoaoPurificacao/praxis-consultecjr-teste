@@ -19,6 +19,10 @@ var swiper = new Swiper(".mySwiper", {
       slidesPerView: 3,
       spaceBetween: 50,
     },
+    1440: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
   }
 });
 
@@ -43,6 +47,10 @@ var swiper2 = new Swiper(".mySwiper2", {
       slidesPerView: 3,
       spaceBetween: 50,
     },
+    1440: {
+      slidesPerView: 5,
+      spaceBetween: 50,
+    },
   }
 });
 
@@ -65,6 +73,10 @@ var swiper3 = new Swiper(".mySwiper3", {
     },
     1024: {
       slidesPerView: 3,
+      spaceBetween: 50,
+    },
+    1440: {
+      slidesPerView: 5,
       spaceBetween: 50,
     },
   }
