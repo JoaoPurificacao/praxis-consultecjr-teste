@@ -1,0 +1,57 @@
+.depositions{
+    text-align: justify;
+    font-family: var(--Poppins);
+    color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+}
+
+.depositions__container{
+    align-items: center;
+    display: flex;
+}
+
+.depositions__card{
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    padding: 0 10rem;
+}
+
+.depositions__card__img__container{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #D9D9D9;
+    /* background-image: url("../../../images/servicos/ben-allan-BIeC4YK2MTA-unsplash.jpg"); */
+    border: 1px solid green;
+    border-radius: 100px;
+    width: 8rem;
+    height: 8rem;
+    margin-right: 2rem;
+}
+
+.depositions__card__img{
+    display: none;
+}
+
+.depositions__card__text{
+    border: 1px solid green;
+    width: 90%;
+}
+
+.depositions__card__text__title{
+    font-size: 2rem;
+}
+
+.depositions__card__text__par{
+    font-size: 1.2rem;
+}
+
+.swiper-button-next, .swiper-button-prev{
+    --swiper-navigation-size: 4.4rem;
+    --swiper-navigation-top-offset: 50%;
+    --swiper-navigation-sides-offset: 1rem;
+    --swiper-navigation-color: white;
+}
+

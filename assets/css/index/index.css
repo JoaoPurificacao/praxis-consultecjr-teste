@@ -19,6 +19,10 @@
     background: var(--gradiente3-home) !important;
 }
 
+.depositions{
+    background: var(--gradiente4-home) !important;
+}
+
 .contact{
     background: var(--gradiente5-home) !important;
 }
