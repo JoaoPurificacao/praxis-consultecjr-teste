@@ -3,12 +3,13 @@
     /* align-items: center; */
     /* display: flex; */
     /* flex-direction: column; */
-    padding-top: 1rem;
-    padding-bottom: 2rem;
+    background-color: #fff;
+    padding-top: 2rem;
+    padding-bottom: 3rem;
     /* height: 50vh; */
     width: 100vw;
     /* border: 2px solid red; */
-    margin-bottom: 2rem;
+    /* padding-bottom: 2rem; */
 }
 
 .principles__container{

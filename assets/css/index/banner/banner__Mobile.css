@@ -2,6 +2,7 @@
     .banner{
         height: 100vh;
         background-position: center;
+        background-size: auto 100%;
     }
 
     .banner__text__subtitle{

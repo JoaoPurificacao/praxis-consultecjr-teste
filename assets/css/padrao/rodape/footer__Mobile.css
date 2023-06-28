@@ -1,11 +1,11 @@
 @media (max-width: 999px) {
     .footer{
-        height: 75vh;
-        border: 1px solid white;
+        height: 85vh;
+        /* border: 1px solid white; */
     }
 
     .footer__main{
-        height: 65%;
+        height: 70%;
         flex-direction: column;
         justify-content: space-around;
     }

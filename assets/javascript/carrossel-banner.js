@@ -4,10 +4,10 @@ const imagens = ['banner__backgroundImg1','banner__backgroundImg2','banner__back
 let count = 0
 
 setInterval(() => {
-    console.log(count)
-    console.log(imagens[count])
+    // console.log(count)
+    // console.log(imagens[count])
     if(count > 3){
-        console.log('Maior')
+        // console.log('Maior')
         banner.classList.add(imagens[count])
         banner.classList.remove(imagens[imagens.length-1])
         count = 0
