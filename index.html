@@ -13,9 +13,15 @@
     <link rel="stylesheet" href="./assets/css/index/index.css">
 
     <!-- Barra de Navegação -->
-    <link rel="stylesheet" href="./assets/css/padrao/cabecalho/navbar.css">
-    <link rel="stylesheet" href="./assets/css/padrao/cabecalho/navbar__Mobile.css">
+    <!-- <link rel="stylesheet" href="./assets/css/padrao/cabecalho/navbar.css"> -->
+    <!-- <link rel="stylesheet" href="./assets/css/padrao/cabecalho/navbar__Mobile.css"> -->
+    <link rel="stylesheet" href="./assets/css/padrao/cabecalho-transparente/navbarTransparente.css">
+    <link rel="stylesheet" href="./assets/css/padrao/cabecalho-transparente/navbarTransparente__Mobile.css">
 
+    <link rel="stylesheet" href="./assets/css/index/banner/banner.css">
+    <link rel="stylesheet" href="./assets/css/index/banner/banner__Mobile.css">
+
+    <!-- Seção: Soluções -->
     <link rel="stylesheet" href="./assets/css/index/solutions/solutions.css">
     <link rel="stylesheet" href="./assets/css/index/solutions/solutions__Mobile.css">
 
@@ -42,9 +48,29 @@
 </head>
 <body>
     <!-- Barra de Navegação - Início -->
-    <header id="header" class="header padding__section">
+    <!-- <header id="header" class="header padding__section">
         <a href="#">
             <img src="./assets/images/logos/Logo-Horizontal-2.png" alt="Logo ConsultecJr" class="header__logo">
+        </a>
+        <div id="mobile_menu" class="mobile_menu">
+            <div class="line1"></div>
+            <div class="line2"></div>
+            <div class="line3"></div>
+        </div>
+        <nav id="header__navbar" class="header__navbar">
+            <a href="#" class="header__navbar__link"><b>Início</b></a>
+            <a href="" class="header__navbar__link">Soluções</a>
+            <a href="./quemSomos.html" class="header__navbar__link">Quem Somos</a>
+            <a href="" class="header__navbar__link">Contato</a>
+            <a href="" class="header__navbar__link">Blog</a>
+            <a href="" class="header__navbar__link">Portfólio</a>
+        </nav>
+    </header> -->
+
+
+    <header id="header" class="header padding__section">
+        <a href="#">
+            <img id="header__logo" src="./assets/images/logos/Logo-Horizontal-1.png" alt="Logo ConsultecJr" class="header__logo">
         </a>
         <div id="mobile_menu" class="mobile_menu">
             <div class="line1"></div>
@@ -62,6 +88,19 @@
     </header>
     <!-- Barra de Navegação - Final -->
 
+    <main id="banner" class="banner padding__section banner__backgroundImg1">
+        <div class="banner__container">
+            <div class="banner__container__text">
+                <h3 class="banner__text__subtitle">Uma empresa que está sempre</h3>
+                <h2 class="banner__text__title">Projetando sonhos e construindo o futuro</h2>
+            </div>
+            <a href="" class="banner__container__link">
+                <button class="banner__container__link__button">Solicite um orçamento</button>
+            </a>
+        </div>
+    </main>
+
+    <!-- Seção: Soluções - Início -->
     <section class="solutions padding__section">
         <div class="solutions__navegation">
             <h2 class="solutions__navegation__title">Soluções</h2>
@@ -183,6 +222,7 @@
         </div>
         </div>
     </section>
+    <!-- Seção: Soluções - Final -->
 
     <!-- Seção: Números - Início -->
     <section class="numbers padding__section" >
@@ -379,7 +419,8 @@
     <script src="https://cdn.jsdelivr.net/npm/swiper@9/swiper-bundle.min.js"></script>
     <script src="./assets/javascript/mobile-navbar.js"></script>
     <script src="./assets/javascript/counter.js"></script>
-    <script src="./assets/javascript/swiper.js"></script>
+    <!-- <script src="./assets/javascript/swiper.js"></script> -->
     <script src="./assets/javascript/carrossel-index.js"></script>
+    <script src="./assets/javascript/carrossel-banner.js"></script>
 </body>
 </html>

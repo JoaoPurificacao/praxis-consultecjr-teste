@@ -1,0 +1,17 @@
+@media (max-width: 999px) {
+    .banner{
+        height: 100vh;
+        background-position: center;
+    }
+
+    .banner__text__subtitle{
+        font-size: 1.5rem;
+        text-align: center;
+    }
+    
+    .banner__text__title{
+        font-size: 3.5rem;
+        text-align: center;
+    }
+
+}

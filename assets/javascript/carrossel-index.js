@@ -85,7 +85,7 @@ var swiperObras = new Swiper(".SwiperObras", {
 let swipers = document.getElementsByClassName('swiper')
 let areas = document.getElementsByClassName('solutions__navegation__link')
 for (area of areas){
-  console.log(area)
+  // console.log(area)
   area.addEventListener('click',function(){
       if(this.classList[1] != 'bold'){
         if(this == areas[0]){
