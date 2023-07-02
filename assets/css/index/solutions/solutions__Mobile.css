@@ -22,9 +22,13 @@
     }
     
     .solutions__navegation__links{
+        /* border: 1px solid green; */
+        align-items: center;
         display: flex;
+        flex-direction: column;
         justify-content: space-between;
-        padding-top: 1.5rem;
+        /* flex-wrap: wrap; */
+        padding-top: 1rem;
         width: 100%;
     }
     
