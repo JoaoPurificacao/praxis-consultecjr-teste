@@ -1,0 +1,38 @@
+.contact{
+    align-items: center;
+    display: flex;
+    height: 12rem;
+    justify-content: space-between;
+    background-color: #fff;
+    width: 100vw;
+}
+
+.contact__text{
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    font-size: 1.5rem;
+    text-align: left;
+}
+
+.contact__text__quest{
+    color: red;
+    font-size: 2rem;
+}
+
+.contact__link{
+    background-color: #fff;
+    font-weight: bold;
+    font-size: 1.6rem;
+    width: 21rem;
+    height: 5rem;
+    border-radius: 5px;
+    text-align: center;
+    line-height: 4.7rem;
+    border: 2px solid var(--vermelho-escuro);
+}
+
+.contact__text, .contact__link{
+    font-family: var(--Poppins);
+    color: #000000;
+}

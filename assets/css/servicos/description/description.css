@@ -1,0 +1,16 @@
+.description{
+    align-items: center;
+    display: flex;
+    justify-content: center;
+    background-color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
+}
+
+.description__text{
+    font-family: var(--Poppins);
+    font-size: 2rem;
+    color: #58595B;
+    text-align: center;
+    width: 80%;
+}
