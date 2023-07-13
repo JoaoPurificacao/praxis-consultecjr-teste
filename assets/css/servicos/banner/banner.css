@@ -9,6 +9,14 @@
     background-repeat: no-repeat;
 }
 
+.banner__arquitetura{
+    background-image: url("../../../images/servicos/pagArquitetura.png");
+}
+
+.banner__obras{
+    background-image: url("../../../images/servicos/pagObras.jpg");
+}
+
 .banner__title{
     font-size: 4.5rem;
 }
