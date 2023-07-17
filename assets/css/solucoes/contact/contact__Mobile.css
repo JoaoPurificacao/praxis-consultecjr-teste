@@ -1,0 +1,15 @@
+@media (max-width: 999px) {
+    .contact{
+        align-items: center;
+        display: flex;
+        flex-direction: column;
+        height: 30rem;
+        justify-content: space-evenly;
+    }
+    
+    .contact__text{
+        width: 100%;
+        font-size: 1.7rem;
+        text-align: center;
+    }
+}

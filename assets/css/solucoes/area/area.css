@@ -1,0 +1,68 @@
+.direita{
+    text-align: right;
+}
+
+.esquerda{
+    text-align: left;
+}
+
+.area{
+    background-color: #fff;
+    padding-top: 5rem;
+    padding-bottom: 0.1rem;
+}
+
+.area__container{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    /* border: 2px solid green; */
+    margin-bottom: 5rem;
+}
+
+.reverse{
+    flex-direction: row-reverse;
+}
+
+.area__container__text{
+    align-items: flex-end;
+    display: flex;
+    flex-direction: column;
+    width: 50%;
+}
+
+.reverse__text{
+    align-items: flex-start;
+}
+
+.area__container__text__title, .area__container__text__subtitle{
+    font-family: var(--Oswald);
+}
+
+.area__container__text__description, .area__container__text__link{
+    font-family: var(--Poppins);
+}
+
+.area__container__text__title{
+    font-size: 3rem;
+    color: var(--vermelho-claro);
+}
+
+.area__container__text__subtitle{
+    font-size: 2rem;
+    color: var(--vermelho-escuro);
+}
+
+.area__container__text__description{
+    font-size: 1.5rem;
+}
+
+.area__container__text__link{
+    font-size: 2rem;
+    color: #fff;
+    background-color: var(--vermelho-claro);
+    padding: 1rem 4rem;
+    text-align: center;
+    border-radius: 0.5rem;
+    margin-top: 1.25rem;
+}

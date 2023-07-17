@@ -1,0 +1,74 @@
+.banner{
+    align-items: center;
+    display: flex;
+    /* flex-direction: column; */
+    height: 50vh;
+    /* height: calc(100vh - 7.5rem); */
+    justify-content: center;
+    background-image: url("../../../images/solucoes/banner1.png");
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+    /* position: relative; */
+    z-index: 90;
+    top: -100;
+    margin-top: -7.5rem;
+}
+
+.banner__backgroundImg1{
+    background-image: url("../../../images/solucoes/banner1.png");
+    transition: transform 0.3s ease-in;
+}
+
+.banner__backgroundImg2{
+    background-image: url("../../../images/solucoes/banner2.png");
+    transition-duration: 2s;
+}
+
+.banner__backgroundImg3{
+    background-image: url("../../../images/solucoes/banner3.png");
+}
+
+.banner__backgroundImg4{
+    background-image: url("../../../images/solucoes/banner4.png");
+}
+
+.banner__container{
+    align-self: center;
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+
+.banner__container__text{
+    align-items: center;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    width: 80%;
+}
+
+.banner__text__subtitle, .banner__text__title, .banner__container__link__button{
+    font-family: var(--Poppins);
+    color: #fff;
+}
+
+.banner__text__subtitle{
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 300;
+}
+
+.banner__text__title{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.banner__container__link__button{
+    border-radius: 20px; 
+    background-color: transparent;
+    border: 2px solid #ED1C24; 
+    width: 30rem;
+    height: 4rem; 
+    font-size: 2rem;
+}
