@@ -1,0 +1,23 @@
+@media (max-width: 999px) {
+    .area__container__text{
+        display: flex;
+        flex-direction: column;
+        width: 100%;
+    }
+
+    .area__container__text, .reverse__text{
+        align-items: center;
+    }
+
+    .direita, .esquerda{
+        text-align: center;
+    }
+
+    .area__container__img{
+        display: none;
+    }
+
+    .area__container__text__subtitle{
+        text-align: center;
+    }
+}
