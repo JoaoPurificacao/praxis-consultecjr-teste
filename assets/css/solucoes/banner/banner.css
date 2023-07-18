@@ -2,10 +2,11 @@
     align-items: center;
     display: flex;
     /* flex-direction: column; */
-    height: 50vh;
+    height: 60vh;
     /* height: calc(100vh - 7.5rem); */
     justify-content: center;
     background-image: url("../../../images/solucoes/banner1.png");
+    background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
     /* position: relative; */
