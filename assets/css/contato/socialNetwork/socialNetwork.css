@@ -6,6 +6,7 @@
 .socialNetwork{
     display: flex;
     justify-content: center;
+    background-color: #fff;
 }
 
 .socialNetwork__grid_container{

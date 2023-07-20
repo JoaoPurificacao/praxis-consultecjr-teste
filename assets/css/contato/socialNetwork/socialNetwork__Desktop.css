@@ -7,10 +7,10 @@
     }
     
     .socialNetwork__grid_container{
-        column-gap: 4rem;
+        column-gap: 2rem;
         grid-template-columns: repeat(3, var(--columm-size));
         grid-template-rows: repeat(2, var(--row-size));
-        row-gap: 6rem;
+        row-gap: 2rem;
         width: 100%;
     }
     

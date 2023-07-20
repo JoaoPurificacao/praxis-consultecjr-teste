@@ -1,0 +1,14 @@
+.banner{
+    align-items: center;
+    height: 40vh;
+    display: flex;
+    justify-content: center;
+    background-image: url("../../../images/contato/contact-us-banner.jpg");
+    background-position: center;
+    background-size: 100% auto;
+    background-repeat: no-repeat;
+}
+
+.banner__title{
+    font-size: 4.5rem;
+}

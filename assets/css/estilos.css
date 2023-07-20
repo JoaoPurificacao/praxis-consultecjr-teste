@@ -66,3 +66,7 @@ a {
     padding-left: var(--padding-section);
     padding-right: var(--padding-section);
 }
+
+.negrito{
+    font-weight: bold;
+}

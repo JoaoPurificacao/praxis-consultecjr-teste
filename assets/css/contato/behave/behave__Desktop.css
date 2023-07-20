@@ -1,0 +1,38 @@
+@media (min-width: 999px) {
+    .behave{
+        padding-top: 5rem;
+        padding-bottom: 4rem;
+    }
+    
+    .behave__container{
+        align-items: flex-end;
+        flex-direction: row;
+        justify-content: space-evenly;
+        margin-top: -4rem;;
+    }
+    
+    .behave__container__item__icon{
+        align-self: center;
+    }
+    
+    .behave__container__item__content{
+        width: 25rem;
+    }
+    
+    .behave__container__item__img{
+        width: 20rem;
+    }
+    
+    .behave__container__item:nth-child(3) img{
+        width: 22.5rem;
+    }
+    
+    
+    .behave__container__item__icon{
+        width: 10rem;
+    }
+    
+    .behave__container__item__text{
+        font-size: 1.5rem;
+    }
+}

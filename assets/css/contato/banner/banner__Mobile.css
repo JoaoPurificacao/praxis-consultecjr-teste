@@ -1,0 +1,11 @@
+@media (max-width: 999px) {
+    .banner{
+        height: 40vh;
+        background-position: center;
+        background-size: auto 100%;
+    }
+
+    .banner__obras{
+        background-size: 100% auto;
+    }
+}
