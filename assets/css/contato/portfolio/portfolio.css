@@ -8,7 +8,7 @@
     background-position: center;
     background-size: auto;
     background-repeat: no-repeat;
-    background-image: url("../../../images/solucoes/banner3.png");
+    /* background-image: url("../../../images/solucoes/banner3.png");    */
 }
 
 .portfolio__title__container{
@@ -32,4 +32,28 @@
 
 .portfolio__container__arrow__left{
     transform: rotate(180deg);
+}
+
+.portfolio__backgroundImg1{
+    background-image: url("../../../images/contato/portfolio__backgroundImg1.png");   
+}
+
+.portfolio__backgroundImg2{
+    background-image: url("../../../images/contato/portfolio__backgroundImg2.png");   
+}
+
+.portfolio__backgroundImg3{
+    background-image: url("../../../images/contato/portfolio__backgroundImg3.png");   
+}
+
+.portfolio__backgroundImg4{
+    background-image: url("../../../images/contato/portfolio__backgroundImg4.png");   
+}
+
+.portfolio__backgroundImg5{
+    background-image: url("../../../images/contato/portfolio__backgroundImg5.png");   
+}
+
+.portfolio__backgroundImg6{
+    background-image: url("../../../images/contato/portfolio__backgroundImg6.png");   
 }
