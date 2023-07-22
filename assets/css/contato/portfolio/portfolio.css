@@ -1,0 +1,35 @@
+.portfolio{
+    display: flex;
+    flex-direction: column;
+    height: 75vh;
+    /* border: 1px solid green; */
+    padding-top: 2rem;
+    padding-bottom: 2rem;
+    background-position: center;
+    background-size: auto;
+    background-repeat: no-repeat;
+    background-image: url("../../../images/solucoes/banner3.png");
+}
+
+.portfolio__title__container{
+    margin-bottom: 6.5rem;
+    /* border: 2px solid red; */
+}
+
+.portfolio__container{
+    height: 100%;
+    align-items: center;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    margin-top: -11.5rem;
+    /* border: 1px solid green; */
+}
+
+.portfolio__container__arrow{
+    height: 10rem;
+}
+
+.portfolio__container__arrow__left{
+    transform: rotate(180deg);
+}
