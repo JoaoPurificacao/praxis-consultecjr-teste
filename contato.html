@@ -17,6 +17,10 @@
     <link rel="stylesheet" href="./assets/css/contato/banner/banner.css">
     <link rel="stylesheet" href="./assets/css/contato/banner/banner__Mobile.css">
 
+    <!-- Seção: Formulário -->
+    <link rel="stylesheet" href="./assets/css/contato/forms/forms.css">
+    <link rel="stylesheet" href="./assets/css/contato/forms/forms__Mobile.css">
+
     <!-- Seção: Redes Sociais -->
     <link rel="stylesheet" href="./assets/css/contato/socialNetwork/socialNetwork.css">
     <link rel="stylesheet" href="./assets/css/contato/socialNetwork/socialNetwork__Desktop.css">
@@ -65,6 +69,49 @@
         </div>
     </section>
     <!-- Seção: Banner - Final -->
+
+    <section class="forms padding__section">
+        <fieldset class="forms__container">
+            <div class="forms__container__text">
+                <h3 class="forms__container__text__title">Qual a sua necessidade?</h3>
+                <p class="forms__container__text__description">Preencha o formulário com seus dados para podermos entrar em contato e apresentarmos a melhor solução para seu problema.</p>
+            </div>
+            <form action="https://api.staticforms.xyz/submit" method="post" class="forms__container__form">
+                <!-- Replace with accesKey sent to your email -->
+                <input type="hidden" name="accessKey" value="f98dbead-3be3-43c0-8f6d-b11b7c6d13c5"> <!-- Required -->
+                <input class="forms__container__form__input forms__container__form__input--name" type="text" name="name" placeholder="Nome"> <!-- Optional -->
+                <input class="forms__container__form__input forms__container__form__input--email" type="text" name="email" placeholder="Email"> <!-- Optional -->
+                <input class="forms__container__form__input forms__container__form__input--phone" type="text" name="phone" placeholder="Telefone"> <!-- Optional -->
+                <select class="forms__container__form__input forms__container__form__input--subject" name="subject" id="" placeholder="Projeto">
+                    <option value="" disabled selected hidden>Projeto</option>
+                    <optgroup label="Arquitetura">
+                        <option value="Projeto Arquitetônico">Projeto Arquitetônico</option>
+                        <option value="Projeto Paisagístico">Projeto Paisagístico</option>
+                        <option value="Arquitetura de Interiores">Arquitetura de Interiores</option>
+                        <option value="Projeto de Fachada">Projeto de Fachada</option>
+                        <option value="Estudo de Viabilidade">Estudo de Viabilidade</option>
+                    </optgroup>
+                    <optgroup label="Engenharia">
+                        <option value="Prevenção de Incêndio">Prevenção de Incêndio</option>
+                        <option value="Inspeção Predial">Inspeção Predial</option>
+                        <option value="Projeto Elétrico">Projeto Elétrico</option>
+                        <option value="Projeto Hidrossanitário">Projeto Hidrossanitário</option>
+                        <option value="Usucapião">Usucapião</option>
+                        <option value="Levantamento Topográfico">Levantamento Topográfico</option>
+                    </optgroup>
+                    <optgroup label="Obras">
+                        <option value="Gerencimaneto de Obra">Gerencimaneto de Obra</option>
+                        <option value="Acompanhamento de Obra">Acompanhamento de Obra</option>
+                        <option value="Gerenciamento Financeiro">Gerenciamento Financeiro</option>
+                        <option value="Execução de Obras">Execução de Obras</option>
+                    </optgroup>
+                </select>
+                <textarea class="forms__container__form__input forms__container__form__input--message" name="message" placeholder="Nos diga a sua necessidade"></textarea> <!-- Optional -->
+                <input class="forms__container__form__input forms__container__form__input--submit" type="submit" value="Enviar" />
+            </form>
+        </fieldset>
+    </section>
+
 
     <!-- Seção: Redes Sociais - Início -->
     <section id="socialNetwork" class="socialNetwork padding__section">

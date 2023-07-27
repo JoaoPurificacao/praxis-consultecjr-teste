@@ -28,6 +28,7 @@
 
 .portfolio__container__arrow{
     height: 10rem;
+    cursor: pointer;
 }
 
 .portfolio__container__arrow__left{
