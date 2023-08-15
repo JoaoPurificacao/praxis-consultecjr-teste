@@ -22,9 +22,6 @@
     align-items: center;
     display: flex;
     justify-content: center;
-    background-color: #D9D9D9;
-    /* background-image: url("../../../images/servicos/ben-allan-BIeC4YK2MTA-unsplash.jpg"); */
-    /* border: 1px solid green; */
     border-radius: 100px;
     width: 8rem;
     height: 8rem;
@@ -32,7 +29,7 @@
 }
 
 .depositions__card__img{
-    display: none;
+    width: 100%;
 }
 
 .depositions__card__text{
