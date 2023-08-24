@@ -16,21 +16,21 @@
 }
 
 .banner__backgroundImg1{
-    background-image: url("../../../images/solucoes/banner1.png");
+    background-image: url("../../../images/solucoes/banner1.webp");
     transition: transform 0.3s ease-in;
 }
 
 .banner__backgroundImg2{
-    background-image: url("../../../images/solucoes/banner2.png");
+    background-image: url("../../../images/solucoes/banner2.webp");
     transition-duration: 2s;
 }
 
 .banner__backgroundImg3{
-    background-image: url("../../../images/solucoes/banner3.png");
+    background-image: url("../../../images/solucoes/banner3.webp");
 }
 
 .banner__backgroundImg4{
-    background-image: url("../../../images/solucoes/banner4.png");
+    background-image: url("../../../images/solucoes/banner4.webp");
 }
 
 .banner__container{

@@ -3,18 +3,18 @@
     height: 40vh;
     display: flex;
     justify-content: center;
-    background-image: url("../../../images/servicos/pagEngenharia.jpg");
+    background-image: url("../../../images/servicos/pagEngenharia.webp");
     background-position: center;
     background-size: 100% auto;
     background-repeat: no-repeat;
 }
 
 .banner__arquitetura{
-    background-image: url("../../../images/servicos/pagArquitetura.png");
+    background-image: url("../../../images/servicos/pagArquitetura.webp");
 }
 
 .banner__obras{
-    background-image: url("../../../images/servicos/pagObras.jpg");
+    background-image: url("../../../images/servicos/pagObras.webp");
 }
 
 .banner__title{
